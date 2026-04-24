@@ -1,0 +1,32 @@
+{
+  "header": {
+    "schema_version": "7.0.8",
+    "witness_node": "VAL-WITNESS-001",
+    "timestamp_ingested": "{{TIMESTAMP}}",
+    "ingestion_cycle": "{{CYCLE_ID}}"
+  },
+  "signal": {
+    "id": "{{SIGNAL_ID}}",
+    "source": {
+      "id": "{{SOURCE_ID}}",
+      "name": "{{SOURCE_NAME}}",
+      "provenance": "{{PROVENANCE_URI}}"
+    },
+    "domain": "{{DOMAIN}}",
+    "data": "{{RAW_CONTENT}}",
+    "metadata": "{{METADATA_JSON}}"
+  },
+  "witness_interpretation": {
+    "narrative": "{{HUMAN_READABLE_NARRATIVE}}",
+    "causal_influence": "{{CAUSAL_LINKS}}",
+    "drift_contribution": "{{DRIFT_SCORE}}",
+    "risk_priority_index": "{{RED_NUMBER}}",
+    "witness_posture": "Non-Advisory, Evidence-First"
+  },
+  "governance": {
+    "clo_id": "{{CLO_ID}}",
+    "reality_anchor_hash": "{{HASH}}",
+    "rekor_index": "{{REKOR_REF}}",
+    "rights": "EXCLUSIVE_NON_DEGRADABLE_HISTORY"
+  }
+}

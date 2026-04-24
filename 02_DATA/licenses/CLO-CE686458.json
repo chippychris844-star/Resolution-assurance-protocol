@@ -1,0 +1,9 @@
+{
+  "clo_id": "CLO-CE686458",
+  "dataset_id": "RA-LIVE-SIGNAL-20260424-1241",
+  "witness_node": "VAL-WITNESS-001",
+  "canon_version": "7.0.8",
+  "rights": "EXCLUSIVE_NON_DEGRADABLE_HISTORY",
+  "provenance_hash": "26381fcb2fce183be6abb3b70894ba2053734e7d522925bd4c7456ae7ab78afb",
+  "sealed_at": "2026-04-24T05:00:09.188Z"
+}

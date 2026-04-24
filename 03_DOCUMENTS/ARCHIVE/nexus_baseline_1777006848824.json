@@ -1,0 +1,25 @@
+[
+  {
+    "source_id": "SRC_AG_NEXUS",
+    "domain": "infrastructure",
+    "content": "Global Grid Frequency Stability Snapshot: 50.01Hz (Nominal). AI Cluster Load: 84%.",
+    "timestamp": "2026-04-24T05:00:48.823Z",
+    "metadata": {
+      "metric": "grid_stability",
+      "value": 50.01,
+      "ai_load": 0.84,
+      "hub": "Global Average"
+    }
+  },
+  {
+    "source_id": "SRC_AG_NEXUS",
+    "domain": "technology",
+    "content": "Inference Latency Metric: 12ms (Average across 10 major hubs). Transition signal detected.",
+    "timestamp": "2026-04-24T05:00:48.824Z",
+    "metadata": {
+      "metric": "inference_latency",
+      "value": 12,
+      "hub_count": 10
+    }
+  }
+]

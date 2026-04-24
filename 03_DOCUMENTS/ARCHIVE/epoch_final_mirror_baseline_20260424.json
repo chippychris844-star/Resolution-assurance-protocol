@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "SRC_AG_EPOCH_BIO",
+    "domain": "medical",
+    "content": "Natural Selection Baseline: Analysis of 16,000 ancient genomes reveals natural selection accelerating human evolution on hundreds of genes (Apr 15, 2026). ProteomeXchange open data practices standardized (PMC 12807779).",
+    "timestamp": "2026-04-24T07:15:00Z",
+    "metadata": {
+      "metric": "natural_genomic_drift",
+      "baseline_year": 2026,
+      "dataset": "Harvard/Broad Institute Ancient DNA study",
+      "significance": "Last high-fidelity record of natural genomic selection before NPU-driven synthetic pollution."
+    }
+  },
+  {
+    "source_id": "SRC_AG_EPOCH_CLIMATE",
+    "domain": "science",
+    "content": "Pre-Aerosol Atmospheric Profile: Solar Radiation Management (SRM) experiments confirmed to begin in April 2026 (Scientist Rebellion). SAI strategy aims to increase surface albedo. Natural solar feedback loops currently below 50% mitigation threshold.",
+    "timestamp": "2026-04-24T07:15:00Z",
+    "metadata": {
+      "metric": "stratospheric_albedo",
+      "srm_status": "deployment_phase",
+      "deployment_date": "2026-04",
+      "significance": "Original solar radiation feedback baseline before SAI-induced signal masking."
+    }
+  },
+  {
+    "source_id": "SRC_AG_EPOCH_ECON",
+    "domain": "economy",
+    "content": "Human Heuristic Friction Baseline: AU/EU markets showing weakened correlation between economic growth and real estate fundamentals (LaSalle Outlook). CEO social media behavior identified as primary driver of stock price volatility via information entropy (Mar 2026).",
+    "timestamp": "2026-04-24T07:15:00Z",
+    "metadata": {
+      "metric": "human_sentiment_entropy",
+      "primary_driver": "social_behavior",
+      "market_correlation": "weakened",
+      "significance": "Pre-agentic price discovery baseline before NPU shroud move."
+    }
+  }
+]
