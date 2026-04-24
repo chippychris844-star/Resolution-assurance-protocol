@@ -1,0 +1,31 @@
+{
+  "header": {
+    "schema_version": "7.0.8",
+    "witness_node": "VAL-WITNESS-001",
+    "timestamp_ingested": "2026-04-24T07:06:10.114Z",
+    "ingestion_cycle": "CYCLE-2026-04-24"
+  },
+  "signal": {
+    "id": "SIG-8ED74A57",
+    "source": {
+      "id": "SRC_AG_NEXUS",
+      "name": "Ingested Authority",
+      "provenance": "ra://provenance/SRC_AG_NEXUS"
+    },
+    "domain": "technology",
+    "data": "Inference Latency Metric: 12ms (Average across 10 major hubs). Transition signal detected.",
+    "metadata": {"metric":"inference_latency","value":12,"hub_count":10}
+  },
+  "witness_interpretation": {
+    "narrative": "This technology signal indicates a structural shift in the resolution field. Latency metrics corroborate the transition of inference from cloud to edge hubs.",
+    "causal_influence": "Linked to Grid-Compute Nexus",
+    "drift_contribution": "0.05",
+    "witness_posture": "Non-Advisory, Evidence-First"
+  },
+  "governance": {
+    "clo_id": "CLO-SIG-8ED74A57",
+    "reality_anchor_hash": "93ebd0879d801599812a000be9e1e1826621d0fbe5bfae1bec153e59fc7cd3e7",
+    "rekor_index": "rekor.sigstore.dev/lookup?hash=93ebd0879d801599812a000be9e1e1826621d0fbe5bfae1bec153e59fc7cd3e7",
+    "rights": "EXCLUSIVE_NON_DEGRADABLE_HISTORY"
+  }
+}
