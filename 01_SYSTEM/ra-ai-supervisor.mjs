@@ -59,10 +59,15 @@ class AISupervisor {
     }
 
     async runIngestionCycle() {
-        this.status = 'INGESTING';
+        this.status = 'SCOUTING';
         console.log(`[CYCLE] Starting Ingestion Cycle ${this.cycles}...`);
         
         try {
+            // Trigger Smart Scout Runner (Pre-Ingest Discovery)
+            console.log('[SCOUT] Launching Smart Scout Runner...');
+            execSync('node C:\\Root_entity\\01_SYSTEM\\ra-scout-runner.mjs', { stdio: 'inherit' });
+
+            this.status = 'INGESTING';
             // Trigger the main PowerShell ingestion logic
             execSync('powershell.exe -ExecutionPolicy Bypass -File D:\\SHANE\\RA-Hourly-Ingest.ps1', { stdio: 'inherit' });
             

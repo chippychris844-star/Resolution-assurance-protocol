@@ -14,7 +14,7 @@
     },
     "domain": "{{DOMAIN}}",
     "data": "{{RAW_CONTENT}}",
-    "metadata": "{{METADATA_JSON}}"
+    "metadata": {{METADATA_JSON}}
   },
   "witness_interpretation": {
     "narrative": "{{HUMAN_READABLE_NARRATIVE}}",
