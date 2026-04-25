@@ -1,0 +1,191 @@
+{
+  "version": "7.0.8",
+  "status": "active",
+  "governance": {
+    "charter": "RESOLUTION ASSURANCE\u2122 Framework Governance Charter",
+    "engine": "FP-STAT-ENGINE-v2.0",
+    "canon_level": "6.2"
+  },
+  "normalization": {
+    "k_scaling": 4.5,
+    "mean_baseline": 0.0,
+    "sigmoid_steepness": 4.5,
+    "sigmoid_midpoint": 0.5
+  },
+  "temporal": {
+    "lambda_decay": 0.08,
+    "smoothing_alpha": 0.7
+  },
+  "triangulation": {
+    "max_node_influence_999": 0.333,
+    "min_independent_sources": 3,
+    "min_independence_threshold": 0.5,
+    "dependency_lambda": 0.2,
+    "overlap_penalty_gamma": 0.35,
+    "contradiction_penalty_delta": 0.5
+  },
+  "consensus_entropy": {
+    "max_entropy_limit_epsilon": 0.45,
+    "entropy_penalty_multiplier": 1.2
+  },
+  "cross_domain_friction": {
+    "environment_vs_industry": 0.45,
+    "privacy_vs_security": 0.3,
+    "growth_vs_sustainability": 0.25
+  },
+  "trust": {
+    "learning_rate_eta": 0.1,
+    "error_penalty_beta": 0.2,
+    "min_weight_threshold": 0.05
+  },
+  "classification": {
+    "true_threshold_theta": 0.85,
+    "false_threshold_theta": 0.2,
+    "max_entropy_limit_epsilon": 0.4,
+    "max_entropy_for_decision": 0.35
+  },
+  "domains": {
+    "finance": 2.5,
+    "health": 3.0,
+    "legal": 2.8,
+    "climate": 2.5,
+    "research": 2.2,
+    "economics": 2.0,
+    "disasters": 2.4,
+    "environment": 2.1,
+    "demographics": 1.8,
+    "policy": 2.3,
+    "education": 1.9,
+    "technology": 2.0,
+    "medical": 3.2,
+    "scientific": 2.4,
+    "e_commerce": 2.8,
+    "supply_chain": 3.0,
+    "market_insight": 2.6,
+    "corporate_org": 2.7,
+    "social_influence": 2.5,
+    "amazon_brand": 2.9,
+    "orbital_resilience": 3.5,
+    "compute_sovereignty": 3.8,
+    "omni_global": 2.5,
+    "general": 2.0
+  },
+  "cross_domain_influence": {
+    "finance": {
+      "economics": 0.85,
+      "health": 0.25,
+      "policy": 0.65,
+      "climate": 0.15
+    },
+    "health": {
+      "economics": 0.45,
+      "policy": 0.75,
+      "research": 0.8,
+      "medical": 0.95
+    },
+    "climate": {
+      "economics": 0.35,
+      "environment": 0.95,
+      "policy": 0.55,
+      "health": 0.2
+    },
+    "research": {
+      "medical": 0.9,
+      "technology": 0.85,
+      "policy": 0.4,
+      "economics": 0.3
+    },
+    "policy": {
+      "legal": 0.95,
+      "finance": 0.5,
+      "economics": 0.6,
+      "health": 0.7
+    },
+    "supply_chain": {
+      "economics": 0.7,
+      "e_commerce": 0.85,
+      "finance": 0.4
+    },
+    "market_insight": {
+      "e_commerce": 0.9,
+      "social_influence": 0.8
+    }
+  },
+  "validator_lattice": {
+    "lattice_id": "LATTICE-v6.2-MAA",
+    "nodes": [
+      {
+        "node_id": "VAL-001",
+        "name": "Integrity Node",
+        "weight": 0.1,
+        "role": "hash_verification"
+      },
+      {
+        "node_id": "VAL-002",
+        "name": "Constraint Node",
+        "weight": 0.1,
+        "role": "logic_verification"
+      },
+      {
+        "node_id": "VAL-003",
+        "name": "Provenance Node",
+        "weight": 0.2,
+        "role": "source_verification"
+      },
+      {
+        "node_id": "VAL-004",
+        "name": "Temporal Node",
+        "weight": 0.1,
+        "role": "freshness_verification"
+      },
+      {
+        "node_id": "VAL-005",
+        "name": "Multiplier Node",
+        "weight": 0.1,
+        "role": "weight_verification"
+      },
+      {
+        "node_id": "VAL-006",
+        "name": "Correlation Node",
+        "weight": 0.1,
+        "role": "cluster_verification"
+      },
+      {
+        "node_id": "VAL-007",
+        "name": "Governance Node",
+        "weight": 0.1,
+        "role": "charter_verification"
+      },
+      {
+        "node_id": "VAL-AG-MKT",
+        "name": "Market Agent Node",
+        "weight": 0.1,
+        "role": "agent_attestation",
+        "agent_id": "market-insight-product-selection"
+      },
+      {
+        "node_id": "VAL-AG-SCM",
+        "name": "Supply Chain Agent Node",
+        "weight": 0.1,
+        "role": "agent_attestation",
+        "agent_id": "product-supplier-sourcing"
+      },
+      {
+        "node_id": "VAL-AG-WIT",
+        "name": "Quartam Witness Node",
+        "weight": 0.1,
+        "role": "witness_attestation",
+        "agent_id": "RA-Witness-Validator"
+      }
+    ],
+    "consensus_threshold": 0.7,
+    "min_node_quorum": 5
+  },
+  "quality_signals": {
+    "formula": "Q = completeness * freshness * source_trust * uniqueness",
+    "completeness_weight": 0.25,
+    "freshness_weight": 0.25,
+    "source_trust_weight": 0.25,
+    "uniqueness_weight": 0.25
+  }
+}
