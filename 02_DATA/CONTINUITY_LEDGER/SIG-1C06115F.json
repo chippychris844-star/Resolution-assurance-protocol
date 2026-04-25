@@ -1,0 +1,32 @@
+{
+  "header": {
+    "schema_version": "7.0.8",
+    "witness_node": "VAL-WITNESS-001",
+    "timestamp_ingested": "2026-04-24T16:43:25.469Z",
+    "ingestion_cycle": "CYCLE-2026-04-24"
+  },
+  "signal": {
+    "id": "SIG-1C06115F",
+    "source": {
+      "id": "SRC_AG_SCOUT",
+      "name": "Ingested Authority",
+      "provenance": "ra://provenance/SRC_AG_SCOUT"
+    },
+    "domain": "general",
+    "data": "Witnessed emerging signal in Subsea Cable Resilience domain. High relationship potential detected for graph density maximization.",
+    "metadata": {"discovery_method":"Autonomous Scout","priority_target":"Subsea Cable Resilience","timestamp_discovered":"2026-04-24T16:43:01.153Z"}
+  },
+  "witness_interpretation": {
+    "narrative": "This general signal indicates a structural shift in the resolution field. Witnessing this state is critical for long-term provenance of the general domain.",
+    "causal_influence": "Linked to Grid-Compute Nexus",
+    "drift_contribution": "0.05",
+    "risk_priority_index": "3",
+    "witness_posture": "Non-Advisory, Evidence-First"
+  },
+  "governance": {
+    "clo_id": "CLO-SIG-1C06115F",
+    "reality_anchor_hash": "499705416d143b1e630be6f4344b5dd6fb8f79c86f680f0b1815bdec39605a89",
+    "rekor_index": "rekor.sigstore.dev/lookup?hash=499705416d143b1e630be6f4344b5dd6fb8f79c86f680f0b1815bdec39605a89",
+    "rights": "EXCLUSIVE_NON_DEGRADABLE_HISTORY"
+  }
+}

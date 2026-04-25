@@ -1,0 +1,32 @@
+{
+  "header": {
+    "schema_version": "7.0.8",
+    "witness_node": "VAL-WITNESS-001",
+    "timestamp_ingested": "2026-04-24T15:57:21.921Z",
+    "ingestion_cycle": "CYCLE-2026-04-24"
+  },
+  "signal": {
+    "id": "SIG-ADE998FF",
+    "source": {
+      "id": "SRC_AG_SCOUT",
+      "name": "Ingested Authority",
+      "provenance": "ra://provenance/SRC_AG_SCOUT"
+    },
+    "domain": "science",
+    "data": "Witnessed emerging signal in Geoengineering domain. High relationship potential detected for graph density maximization.",
+    "metadata": {"discovery_method":"Autonomous Scout","priority_target":"Geoengineering","timestamp_discovered":"2026-04-24T15:57:08.431Z"}
+  },
+  "witness_interpretation": {
+    "narrative": "This science signal indicates a structural shift in the resolution field. Witnessing this state is critical for long-term provenance of the science domain.",
+    "causal_influence": "Linked to Grid-Compute Nexus",
+    "drift_contribution": "0.05",
+    "risk_priority_index": "10",
+    "witness_posture": "Non-Advisory, Evidence-First"
+  },
+  "governance": {
+    "clo_id": "CLO-SIG-ADE998FF",
+    "reality_anchor_hash": "a7ee2447a84718a9a45e1923a9120cd15d91a87c8388e42ad967b322293ec092",
+    "rekor_index": "rekor.sigstore.dev/lookup?hash=a7ee2447a84718a9a45e1923a9120cd15d91a87c8388e42ad967b322293ec092",
+    "rights": "EXCLUSIVE_NON_DEGRADABLE_HISTORY"
+  }
+}

@@ -67,6 +67,10 @@ class AISupervisor {
             console.log('[SCOUT] Launching Smart Scout Runner...');
             execSync('node C:\\Root_entity\\01_SYSTEM\\ra-scout-runner.mjs', { stdio: 'inherit' });
 
+            // Trigger Early Warning Agent (Real-time Anomaly Detection)
+            console.log('[EWS] Launching Early Warning Agent...');
+            execSync('node C:\\Root_entity\\01_SYSTEM\\ra-early-warning-agent.mjs', { stdio: 'inherit' });
+
             this.status = 'INGESTING';
             // Trigger the main PowerShell ingestion logic
             execSync('powershell.exe -ExecutionPolicy Bypass -File D:\\SHANE\\RA-Hourly-Ingest.ps1', { stdio: 'inherit' });

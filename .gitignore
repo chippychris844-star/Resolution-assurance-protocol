@@ -1,0 +1,21 @@
+# Credentials and Secrets
+aapicred.txt
+04_SECURITY/.env*
+*.env
+*.pem
+*.key
+*.p12
+*.json
+!02_DATA/CONTINUITY_LEDGER/*.json
+
+# Logs
+*.log
+02_DATA/monitor.log
+
+# Modules
+node_modules/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
